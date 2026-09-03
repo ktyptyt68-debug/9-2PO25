@@ -1,6 +1,6 @@
 
 def function1(int1, int2, list1):
-    for i in range(1, 21):
+    for i in range(int1, int2):
         print(i)
         list1.append(i)
     print("-"*20)
