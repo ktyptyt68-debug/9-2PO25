@@ -3,7 +3,7 @@ if question1 == 1:
     name="alex"
     age=27
     print("name: " + name)
-    print("age: " + age)
+    print("age: " + str(age))
 elif question1 == 2:
     print(2+2)
     print(7*2)
